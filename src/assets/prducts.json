@@ -1,0 +1,39 @@
+[
+   
+    {
+        "id":"1",
+        "img": "src/assets/IMAGES/image-baklava-desktop.jpg"
+    },
+    {
+        "id":"2",
+        "img": "src/assets/IMAGES/image-brownie-desktop.jpg"
+    },
+    {
+        "id":"3",
+        "img": "src/assets/IMAGES/image-cake-desktop.jpg"
+    },
+    {
+        "id":"4",
+        "img": "src/assets/IMAGES/image-creme-brulee-desktop.jpg"
+    },
+    {
+        "id":"5",
+        "img": "src/assets/IMAGES/image-macaron-desktop.jpg"
+    },
+    {
+        "id":"6",
+        "img": "src/assets/IMAGES/image-meringue-desktop.jpg"
+    },
+    {
+        "id":"7",
+        "img": "src/assets/IMAGES/image-panna-cotta-desktop.jpg"
+    },
+    {
+        "id":"8",
+        "img": "src/assets/IMAGES/image-tiramisu-desktop.jpg"
+    },
+    {
+        "id":"9",
+        "img": "src/assets/IMAGES/image-waffle-desktop.jpg"
+    }
+]
