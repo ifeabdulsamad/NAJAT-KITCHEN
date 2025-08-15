@@ -15,8 +15,8 @@ function App() {
               alt={`Dessert ${product.id}`}
               className="w-full object-cover"
             />
-            <button className="flex cursor-pointer absolute left-1/2 -translate-x-1/2 translate-y-1/2 bottom-0 px-12 font-black bg-white py-2 border border-amber-700 rounded-full whitespace-nowrap w-fit mx-auto text-white">
-              <img src="src/assets/IMAGES/icon-add-to-cart.svg" className="mr-2" /><b>Add to Cart</b>
+            <button className="flex cursor-pointer absolute left-1/2 -translate-x-1/2 translate-y-1/2 bottom-0 px-12 text-black bg-white py-2 border border-amber-700 rounded-full whitespace-nowrap w-fit mx-auto text-white">
+              <img src="src/assets/IMAGES/icon-add-to-cart.svg" className="mr-2" /><b className="text-black">Add to Cart</b>
             </button>
           </div>
           <p>{product.title}</p>
