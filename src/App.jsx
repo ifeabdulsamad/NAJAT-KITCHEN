@@ -1,28 +1,37 @@
-import products from "./assets/prducts.json"
-import "./styles.css"
+import products from "./assets/prducts.json";
+import "./styles.css";
 function App() {
-
   return (
-   <main className="grid grid-cols-12 gap-6 p-6">
+    <main className="grid grid-cols-1 lg:grid-cols-12  gap-6 p-6 m-6 ">
   {/* Products Section */}
-  <section className="col-span-8">
-    <h3 className="text-2xl font-bold mb-4">Desserts</h3>
-    <div className="grid grid-cols-3 gap-3">
+  <section className="lg:col-span-8">
+    <h3 className="text-2xl font-bold mb-4">Najat kitchen</h3>
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3">
       {products.map((product) => (
-        <div key={product.id} className="border rounded-lg">
-          <img
-            src={product.img}
-            alt={`Dessert ${product.id}`}
-            className="w-full object-cover"
-          />
+        <div key={product.id}>
+          <div className="relative inline-block w-full">
+            <img
+              src={product.img}
+              alt={`Dessert ${product.id}`}
+              className="w-full object-cover"
+            />
+            <button className="flex cursor-pointer absolute left-1/2 -translate-x-1/2 translate-y-1/2 bottom-0 px-12 font-black bg-white py-2 border border-amber-700 rounded-full whitespace-nowrap w-fit mx-auto text-white">
+              <img src="src/assets/IMAGES/icon-add-to-cart.svg" className="mr-2" /><b>Add to Cart</b>
+            </button>
+          </div>
+          <p>{product.title}</p>
+          <p>
+            <b>{product.name}</b>
+          </p>
+          <p>{product.price}</p>
         </div>
       ))}
     </div>
   </section>
 
   {/* Cart Section */}
-  <section className="col-span-4 bg-gray-50 p-4 rounded-lg shadow-sm">
-    <h5 className="text-xl font-semibold mb-4">Your Cart (7)</h5>
+  <section className="lg:col-span-4 bg-gray-50 p-4 rounded-lg shadow-sm">
+    <h6 className="font-semibold mb-4">Your Cart (7)</h6>
     <div className="flex flex-col items-center text-center text-gray-500">
       <img
         src="src/assets/IMAGES/illustration-empty-cart.svg"
@@ -34,7 +43,7 @@ function App() {
   </section>
 </main>
 
-  )
+  );
 }
 
-export default App
+export default App;
