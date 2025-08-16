@@ -1,5 +1,5 @@
 import products from "./assets/prducts.json";
-import "./styles.css";
+import "./Styles.css";
 function App() {
   return (
     <main className="grid grid-cols-1 lg:grid-cols-12  gap-6 p-6 m-6 ">
