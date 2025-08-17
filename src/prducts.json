@@ -2,63 +2,63 @@
    
     {
         "id":"1",
-        "img": "src/assets/IMAGES/image-baklava-desktop.jpg",
+        "img": "/IMAGES/image-waffle-desktop.jpg",
         "title": "waffle",
         "name": "Waffle with Berries",
         "price": "$6.50"
     },
     {
         "id":"2",
-        "img": "src/assets/IMAGES/image-brownie-desktop.jpg",
+        "img": "/IMAGES/image-brownie-desktop.jpg",
         "title": "waffle",
         "name": "Waffle with Berries",
         "price": "$6.50"
     },
     {
         "id":"3",
-        "img": "src/assets/IMAGES/image-cake-desktop.jpg",
+        "img": "/IMAGES/image-cake-desktop.jpg",
         "title": "Waffle",
         "name": "Waffle with Berries",
         "price": "$8.50"
     },
     {
         "id":"4",
-        "img": "src/assets/IMAGES/image-creme-brulee-desktop.jpg",
+        "img": "/IMAGES/image-creme-brulee-desktop.jpg",
         "title": "Waffle",
         "name": "Waffle with Berries",
         "price": "$8.50"
     },
     {
         "id":"5",
-        "img": "src/assets/IMAGES/image-macaron-desktop.jpg",
+        "img": "/IMAGES/image-macaron-desktop.jpg",
         "title": "Waffle",
         "name": "Waffle with Berries",
         "price": "$8.50"
     },
     {
         "id":"6",
-        "img": "src/assets/IMAGES/image-meringue-desktop.jpg",
+        "img": "/IMAGES/image-meringue-desktop.jpg",
         "title": "Waffle",
         "name": "Waffle with Berries",
         "price": "$8.50"
     },
     {
         "id":"7",
-        "img": "src/assets/IMAGES/image-panna-cotta-desktop.jpg",
+        "img": "/IMAGES/image-panna-cotta-desktop.jpg",
         "title": "Waffle",
         "name": "Waffle with Berries",
         "price": "$8.50"
     },
     {
         "id":"8",
-        "img": "src/assets/IMAGES/image-tiramisu-desktop.jpg",
+        "img": "/IMAGES/image-tiramisu-desktop.jpg",
         "title": "Waffle",
         "name": "Waffle with Berries",
         "price": "$8.50"
     },
     {
         "id":"9",
-        "img": "src/assets/IMAGES/image-waffle-desktop.jpg",
+        "img": "/IMAGES/image-waffle-desktop.jpg",
         "title": "Waffle",
         "name": "Waffle with Berries",
         "price": "$8.50"

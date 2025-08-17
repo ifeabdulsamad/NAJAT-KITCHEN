@@ -1,4 +1,4 @@
-import products from "./assets/prducts.json";
+import products from "./prducts.json";
 import "./styles.css";
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
               className="w-full object-cover"
             />
             <button className="flex cursor-pointer absolute left-1/2 -translate-x-1/2 translate-y-1/2 bottom-0 px-12 text-black bg-white py-2 border border-amber-700 rounded-full whitespace-nowrap w-fit mx-auto text-white">
-              <img src="src/assets/IMAGES/icon-add-to-cart.svg" className="mr-2" /><b className="text-black">Add to Cart</b>
+              <img src="/IMAGES/icon-add-to-cart.svg" className="mr-2" /><b className="text-black">Add to Cart</b>
             </button>
           </div>
           <p>{product.title}</p>
@@ -34,7 +34,7 @@ function App() {
     <h6 className="font-semibold mb-4">Your Cart (7)</h6>
     <div className="flex flex-col items-center text-center text-gray-500">
       <img
-        src="src/assets/IMAGES/illustration-empty-cart.svg"
+        src="/IMAGES/illustration-empty-cart.svg"
         alt="Empty cart"
         className="w-32 h-32 mb-4"
       />
