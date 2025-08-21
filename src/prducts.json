@@ -1,66 +1,64 @@
 [
-   
     {
         "id":"1",
         "img": "/IMAGES/image-waffle-desktop.jpg",
-        "title": "waffle",
-        "name": "Waffle with Berries",
-        "price": "6.50"
+        "title": "Waffle",
+        "name": "Classic Belgian Waffle with Fresh Berries and Maple Syrup",
+        "price": "7.20"
     },
     {
         "id":"2",
         "img": "/IMAGES/image-brownie-desktop.jpg",
-        "title": "waffle",
-        "name": "Waffle with Berries",
-        "price": "6.50"
+        "title": "Brownie",
+        "name": "Rich Chocolate Brownie topped with Vanilla Ice Cream",
+        "price": "6.80"
     },
     {
         "id":"3",
         "img": "/IMAGES/image-cake-desktop.jpg",
-        "title": "Waffle",
-        "name": "Waffle with Berries",
-        "price": "8.50"
+        "title": "Cake",
+        "name": "Layered Vanilla Cake with Creamy Frosting and Strawberries",
+        "price": "9.10"
     },
     {
         "id":"4",
         "img": "/IMAGES/image-creme-brulee-desktop.jpg",
-        "title": "Waffle",
-        "name": "Waffle with Berries",
-        "price": "8.50"
+        "title": "Creme Brulee",
+        "name": "Traditional French Creme Brulee with Caramelized Sugar Crust",
+        "price": "7.90"
     },
     {
         "id":"5",
         "img": "/IMAGES/image-macaron-desktop.jpg",
-        "title": "Waffle",
-        "name": "Waffle with Berries",
-        "price": "8.50"
+        "title": "Macaron",
+        "name": "Assorted French Macarons with Almond and Raspberry Filling",
+        "price": "8.30"
     },
     {
         "id":"6",
         "img": "/IMAGES/image-meringue-desktop.jpg",
-        "title": "Waffle",
-        "name": "Waffle with Berries",
-        "price": "8.50"
+        "title": "Meringue",
+        "name": "Light and Crispy Meringue Cookies with Lemon Zest",
+        "price": "7.60"
     },
     {
         "id":"7",
         "img": "/IMAGES/image-panna-cotta-desktop.jpg",
-        "title": "Waffle",
-        "name": "Waffle with Berries",
-        "price": "8.50"
+        "title": "Panna Cotta",
+        "name": "Creamy Italian Panna Cotta with Mixed Berry Compote",
+        "price": "8.90"
     },
     {
         "id":"8",
         "img": "/IMAGES/image-tiramisu-desktop.jpg",
-        "title": "Waffle",
-        "name": "Waffle with Berries",
-        "price": "8.50"
+        "title": "Tiramisu",
+        "name": "Classic Italian Tiramisu with Espresso and Mascarpone",
+        "price": "7.50"
     },
     {
         "id":"9",
         "img": "/IMAGES/image-waffle-desktop.jpg",
         "title": "Waffle",
-        "name": "Waffle with Berries",
-        "price": "8.50"
-    }
-]
+        "name": "Golden Waffle served with Whipped Cream and Fresh Fruit",
+        "price": "8.10"
+    }]

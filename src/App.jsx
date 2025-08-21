@@ -44,7 +44,7 @@ function App() {
   );
 
   const confirmOrder = () => {
-    alert("✅ Order Confirmed! Thank you for shopping.");
+    alert("✅ Order Confirmed!");
     setCart([]); // clear cart after confirmation
   };
 
@@ -58,29 +58,33 @@ function App() {
             const inCart = cart.find((item) => item.id === product.id);
 
             return (
-              <div key={product.id}>
+              <div
+                key={product.id}
+                className=" rounded-lg shadow shadow-amber-950 transition pb-5"
+              >
+                
                 <div className="relative inline-block w-full">
                   <img
                     src={product.img}
                     alt={product.title}
-                    className="w-full object-cover"
+                    className="w-full object-cover overflow-hidden rounded-lg"
                   />
 
                   {/* 🔘 Button turns into - qty + if already in cart */}
                   {inCart ? (
-                    <div className="flex justify-between items-center absolute left-1/2 -translate-x-1/2 translate-y-1/2 bottom-0 bg-white border border-amber-700 rounded-full px-4 min-w-[160px] h-[44px]">
+                    <div className="flex justify-between items-center absolute left-1/2 -translate-x-1/2 translate-y-1/2 bottom-0 bg-amber-700 border border-amber-700 rounded-full px-4 min-w-[160px] h-[44px]">
                       <button
                         onClick={() => removeFromCart(product)}
-                        className="px-2 text-xl font-bold text-red-500"
+                        className="px-2 text-xl font-bold text-white"
                       >
                         –
                       </button>
-                      <span className="mx-3 font-semibold">
+                      <span className="mx-3 font-semibold text-white">
                         {inCart.quantity}
                       </span>
                       <button
                         onClick={() => addToCart(product)}
-                        className="px-2 text-xl font-bold text-green-500"
+                        className="px-2 text-xl font-bold text-white"
                       >
                         +
                       </button>
@@ -95,15 +99,14 @@ function App() {
                         className="mr-2"
                         alt="Add"
                       />
-                      <b className="text-black">Add to Cart</b>
+                      Add to Cart
                     </button>
                   )}
                 </div>
-                <p>{product.title}</p>
-                <p>
-                  <b>{product.name}</b>
-                </p>
-                <p>${product.price}</p>
+                {/* Product details */}
+                <p className="mt-5 font-bold px-2">{product.title}</p>
+                <p className="px-2">{product.name}</p>
+                <p className="mb-5 text-amber-700 px-2 font-bold">${product.price}</p>
               </div>
             );
           })}
@@ -129,7 +132,7 @@ function App() {
               {cart.map((item) => (
                 <li
                   key={item.id}
-                  className="flex items-center justify-between border-b pb-2"
+                  className="flex items-center justify-between border-b shadow-black pb-2"
                 >
                   {/* 🖼️ Product image */}
                   <img
@@ -141,16 +144,22 @@ function App() {
                   {/* Product details */}
                   <div className="flex-1">
                     <p className="font-semibold">{item.name}</p>
-                    <p className="text-sm text-gray-600">
-                      {item.quantity} × ${item.price} = $
-                      {item.quantity * item.price}
+                    <p className="text-sm text-gray-600 flex justify-between w-full">
+                      <span className="text-gray-500">
+                        {item.quantity} × @ ${item.price}
+                      </span>
+                      <span className="font-semibold text-black">
+                        ${(item.quantity * item.price).toFixed(2)}
+                      </span>
                     </p>
                   </div>
                 </li>
               ))}
             </ul>
 
-            <div className="mt-4 font-bold">Total: ${totalPrice.toFixed(2)}</div>
+            <div className="mt-4 font-bold">
+              Total: ${totalPrice.toFixed(2)}
+            </div>
 
             {/* ✅ Confirm Order Button */}
             <button
